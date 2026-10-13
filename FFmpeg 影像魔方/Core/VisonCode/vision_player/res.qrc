@@ -1,0 +1,38 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Style/main.css</file>
+        <file>Style/image/close.png</file>
+        <file>Style/image/max.png</file>
+        <file>Style/image/min.png</file>
+        <file>Style/image/next.png</file>
+        <file>Style/image/next_hover.png</file>
+        <file>Style/image/play.png</file>
+        <file>Style/image/play_hover.png</file>
+        <file>Style/image/previous.png</file>
+        <file>Style/image/previous_hover.png</file>
+        <file>Style/image/setup.png</file>
+        <file>Style/image/stop.png</file>
+        <file>Style/image/stop_hover.png</file>
+        <file>Style/image/volume.png</file>
+        <file>userdata/user.txt</file>
+        <file>Style/image/volume_hover.png</file>
+        <file>Style/image/mute.png</file>
+        <file>Style/image/mute_hover.png</file>
+        <file>Style/image/continue.png</file>
+        <file>Style/image/continue_hover.png</file>
+        <file>Style/image/st.png</file>
+        <file>Style/image/refresh.png</file>
+        <file>Style/image/refresh_hover.png</file>
+        <file>Style/image/login.png</file>
+        <file>Style/image/login_hover.png</file>
+        <file>Style/image/sidebar_hide.png</file>
+        <file>Style/image/sidebar_hide_hover.png</file>
+        <file>Style/image/sidebar_show.png</file>
+        <file>Style/image/sidebar_show_hover.png</file>
+        <file>Style/image/min_hover.png</file>
+        <file>Style/image/max_hover.png</file>
+        <file>Style/image/close_hover.png</file>
+        <file>Style/image/set_up_hover.png</file>
+        <file>Style/image/st_bg.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,248 @@
+﻿*{
+        color: rgb(238, 238, 238);
+}
+
+/*标题栏样式*/
+#label_title{
+        font: 75 11pt "微软雅黑";
+}
+
+.TitleBar #background {
+        background-color: #303030;
+}
+#body{
+    background-color: #000000;
+}
+
+#label_icon{
+border:transparent;
+border-image: url(:/Style/image/st.png) center center no-repeat;
+}
+
+#bt_close:hover{
+border:transparent;
+background: url(:/Style/image/close_hover.png) center center no-repeat;
+background-color: rgba(209, 209, 209, 100);
+}
+
+#bt_close{
+border:transparent;
+background: url(:/Style/image/close.png) center center no-repeat;
+}
+
+#bt_max:hover{
+border:transparent;
+background: url(:/Style/image/max_hover.png) center center no-repeat;
+background-color: rgba(209, 209, 209, 100);
+}
+
+#bt_max{
+border:transparent;
+background: url(:/Style/image/max.png) center center no-repeat;
+}
+
+#bt_min:hover{
+border:transparent;
+background: url(:/Style/image/min_hover.png) center center no-repeat;
+background-color: rgba(209, 209, 209, 100);
+}
+
+#bt_min{
+border:transparent;
+background: url(:/Style/image/min.png) center center no-repeat;
+}
+
+#bt_close:pressed, #bt_max:pressed, #bt_min:pressed{
+background-color: rgba(51, 8, 103, 100);
+}
+
+#loginbt:hover{
+border:transparent;
+background: url(:/Style/image/login_hover.png) center  no-repeat;
+}
+
+#loginbt {
+border:transparent;
+background: url(:/Style/image/login.png) center no-repeat;
+}
+
+
+/*播放控制栏*/
+.ControlBar #background{
+background-color: rgba(209, 209, 209, 100);
+}
+
+#bt_play[play='start']:hover{
+border:transparent;
+border-image: url(:/Style/image/play_hover.png) center center no-repeat;
+}
+
+#bt_play[play='stop']:hover{
+border:transparent;
+border-image: url(:/Style/image/stop_hover.png) center center no-repeat;
+}
+
+#bt_play[play='continue']:hover{
+border:transparent;
+border-image: url(:/Style/image/continue_hover.png) center center no-repeat;
+}
+
+#bt_play, #bt_play[play='start']{
+border:transparent;
+border-image: url(:/Style/image/play.png) center center no-repeat;
+}
+
+#bt_play[play='stop']{
+border:transparent;
+border-image: url(:/Style/image/stop.png) center center no-repeat;
+}
+
+#bt_play[play='continue']{
+border:transparent;
+border-image: url(:/Style/image/continue.png) center center no-repeat;
+}
+
+
+#bt_next:hover{
+border:transparent;
+border-image: url(:/Style/image/next_hover.png) center center no-repeat;
+}
+
+
+#bt_previous:hover {
+border:transparent;
+border-image: url(:/Style/image/previous_hover.png) center center no-repeat;
+}
+
+#bt_previous {
+border:transparent;
+border-image: url(:/Style/image/previous.png) center center no-repeat;
+}
+
+#bt_next {
+border:transparent;
+border-image: url(:/Style/image/next.png) center center no-repeat;
+}
+
+#bt_volume[setup='normal']:hover{
+border:transparent;
+border-image: url(:/Style/image/volume_hover.png) center center no-repeat;
+}
+
+#bt_volume[setup='mute']:hover{
+border:transparent;
+border-image: url(:/Style/image/mute_hover.png) center center no-repeat;
+}
+
+#bt_volume, #bt_volume[setup='normal'] {
+border:transparent;
+border-image: url(:/Style/image/volume.png) center center no-repeat;
+}
+
+#bt_volume[setup='mute'] {
+border:transparent;
+border-image: url(:/Style/image/mute.png) center center no-repeat;
+}
+
+#bt_setup:hover{
+border:transparent;
+border-image: url(:/Style/image/set_up_hover.png) center center no-repeat;
+}
+
+#bt_setup{
+border:transparent;
+border-image: url(:/Style/image/setup.png) center center no-repeat;
+}
+
+/*侧边栏*/
+#sidebar #background{
+background-color: rgb(15, 15, 15);
+}
+
+#treeWidget {
+    background-color:  rgb(58, 58, 58);
+    outline:none;
+    border:none;
+}
+
+#refreshbt:hover{
+border:transparent;
+border-width: 7px 7px 7px 7px;
+border-image: url(:/Style/image/refresh_hover.png) 0 0 0 0 no-repeat;
+}
+
+#refreshbt{
+border:transparent;
+border-width: 7px 7px 7px 7px;
+border-image: url(:/Style/image/refresh.png) 0 0 0 0 no-repeat;
+background-color:  rgb(58, 58, 58);
+}
+
+
+#vlist{
+    background-color:  rgb(58, 58, 58);
+}
+
+#none{
+    background-color:  rgb(15, 15, 15);
+}
+
+#none2{
+    background-color:  rgb(58, 58, 58);
+}
+
+#treeWidget::item{
+    height: 30px;
+}
+#treeWidget::item:hover {
+   background-color: rgb(83, 83, 83);
+}
+
+#sidebarhide[status='hide']:hover{
+border:transparent;
+background: url(:/Style/image/sidebar_hide_hover.png)  center no-repeat;
+}
+
+#sidebarhide[status='hide']{
+border:transparent;
+background: url(:/Style/image/sidebar_hide.png) center  no-repeat;
+}
+
+#sidebarhide[status='show']:hover{
+border:transparent;
+background: url(:/Style/image/sidebar_show_hover.png) center no-repeat;
+}
+
+#sidebarhide[status='show']{
+border:transparent;
+background: url(:/Style/image/sidebar_show.png) center no-repeat;
+}
+
+/*进度条*/
+QSlider::groove:horizontal{
+height:6px;
+border-radius:3px;
+}
+
+/*未播进度放颜色设置*/
+QSlider::add-page:horizontal{
+background:#D8D8D8;
+height:6px;
+border-radius:3px;
+}
+
+/*播放过颜色设置*/
+QSlider::sub-page:horizontal{
+background:rgb(57,150,255);
+height:6px;
+border-radius:3px;
+}
+
+/*滑块*/
+QSlider::handle:horizontal{
+width:13px;
+margin-top:-3px;
+margin-bottom:-3px;
+border-radius:6px;
+background:qradialgradient(spread:pad,cx:0.5,cy:0.5,radius:0.5,fx:0.5,fy:0.5,stop:0.6 #b5d6ff,stop:0.8 #FFFFFF);
+}

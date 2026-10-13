@@ -1,0 +1,32 @@
+# IDE and build output
+.vs/
+.vscode/
+build*/
+Debug/
+Release/
+*.user
+*.suo
+*.opensdf
+*.ipch
+
+# Generated binaries and intermediate files
+*.o
+*.obj
+*.d
+*.crf
+*.axf
+*.elf
+*.hex
+*.map
+*.pdb
+*.dll
+*.exe
+*.a
+*.lib
+*.so
+*.zip
+
+# Local databases and logs
+*.log
+*.tmp
+*.db
