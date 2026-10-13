@@ -6,7 +6,7 @@
 
 - `../Core/VisonCode/vision_player/`：Qt Creator 工程源码，入口工程为 `vision.pro`。
 - `../App/st_vplayer_v1.1/`：整理后的 Windows 应用目录。
-- `../App/st_vplayer_v1.1.zip`：本地打包归档。该归档约 79 MB，目前按 `.gitignore` 规则保留在本地。
+- `../App/st_vplayer_v1.1.zip`：本地打包归档。该归档约 79 MB，使用 Git LFS 保存。
 
 ## 构建
 
@@ -14,4 +14,4 @@
 
 ## 说明
 
-已提交源码、界面资源及必要头文件；生成的二进制、构建缓存和大型压缩包按仓库 `.gitignore` 规则排除。FFmpeg、Qt 等第三方组件仍需遵守各自许可证。
+已收录源码、界面资源、依赖库及 Windows 应用包；构建中间产物和 IDE 缓存按仓库 `.gitignore` 规则排除。使用 Git LFS 下载完整的大文件内容。FFmpeg、Qt 等第三方组件仍需遵守各自许可证。

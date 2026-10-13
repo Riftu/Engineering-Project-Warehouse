@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+FFmpeg[[:space:]]影像魔方/App/st_vplayer_v1.1.zip filter=lfs diff=lfs merge=lfs -text
+FFmpeg[[:space:]]影像魔方/App/st_vplayer_v1.1/avcodec-60.dll filter=lfs diff=lfs merge=lfs -text
+FFmpeg[[:space:]]影像魔方/Core/VisonCode/03_dll/avcodec-60.dll filter=lfs diff=lfs merge=lfs -text

@@ -19,12 +19,6 @@ Release/
 *.hex
 *.map
 *.pdb
-*.dll
-*.exe
-*.a
-*.lib
-*.so
-*.zip
 
 # Local databases and logs
 *.log
